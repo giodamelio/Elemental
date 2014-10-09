@@ -1,0 +1,59 @@
+{
+    "id": 1,
+    "name": "Hello World",
+    "width": 3,
+    "height": 3,
+    "map_data": [
+        [
+            {
+                "x": 1,
+                "y": 1,
+                "tile": "grass"
+            },
+            {
+                "x": 2,
+                "y": 1,
+                "tile": "grass"
+            },
+            {
+                "x": 3,
+                "y": 1,
+                "tile": "grass"
+            }
+        ],
+        [
+            {
+                "x": 1,
+                "y": 2,
+                "tile": "grass"
+            },
+            {
+                "x": 2,
+                "y": 2,
+                "tile": "lava"
+            },
+            {
+                "x": 3,
+                "y": 2,
+                "tile": "grass"
+            }
+        ],
+        [
+            {
+                "x": 1,
+                "y": 3,
+                "tile": "grass"
+            },
+            {
+                "x": 2,
+                "y": 3,
+                "tile": "grass"
+            },
+            {
+                "x": 3,
+                "y": 3,
+                "tile": "grass"
+            }
+        ]
+    ]
+}
