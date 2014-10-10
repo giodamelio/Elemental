@@ -17,9 +17,12 @@ var Map = function() {
     // Get our context
     self.context = self.canvas.getContext("2d");
 
-    // Draw a redrectangle
-    self.context.fillStyle = "rgb(255,0,0)";
-    self.context.fillRect(10, 10, 25, 25);
+    // Main draw loop
+    var loop = function() {
+        self._drawMap();
+        window.requestAnimationFrame(loop);
+    };
+    window.requestAnimationFrame(loop);
 };
 
 // Load a map from url
@@ -33,5 +36,10 @@ Map.prototype.loadMap = function(url, callback) {
         self.map = JSON.parse(map);
         callback();
     });
+};
+
+// Draw the map
+Map.prototype._drawMap = function() {
+    console.log("Drawing frame");
 };
 
