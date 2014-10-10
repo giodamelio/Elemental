@@ -3,56 +3,57 @@
     "name": "Hello World",
     "width": 3,
     "height": 3,
+    "tilesize": 32,
     "map_data": [
         [
             {
+                "x": 0,
+                "y": 0,
+                "type": "lava"
+            },
+            {
                 "x": 1,
-                "y": 1,
-                "tile": "grass"
+                "y": 0,
+                "type": "grass"
             },
             {
                 "x": 2,
-                "y": 1,
-                "tile": "grass"
-            },
-            {
-                "x": 3,
-                "y": 1,
-                "tile": "grass"
+                "y": 0,
+                "type": "lava"
             }
         ],
         [
             {
+                "x": 0,
+                "y": 1,
+                "type": "grass"
+            },
+            {
                 "x": 1,
-                "y": 2,
-                "tile": "grass"
+                "y": 1,
+                "type": "lava"
             },
             {
                 "x": 2,
-                "y": 2,
-                "tile": "lava"
-            },
-            {
-                "x": 3,
-                "y": 2,
-                "tile": "grass"
+                "y": 1,
+                "type": "grass"
             }
         ],
         [
             {
+                "x": 0,
+                "y": 2,
+                "type": "lava"
+            },
+            {
                 "x": 1,
-                "y": 3,
-                "tile": "grass"
+                "y": 2,
+                "type": "grass"
             },
             {
                 "x": 2,
-                "y": 3,
-                "tile": "grass"
-            },
-            {
-                "x": 3,
-                "y": 3,
-                "tile": "grass"
+                "y": 2,
+                "type": "lava"
             }
         ]
     ]
